@@ -38,4 +38,5 @@ I = I1 - 2I2 = 0 Intersection
 
 From the case analysis above, we see that each intersection controbute to one inversion in I1. In case 3, no inversion is observed but there's I1 = 2 and I2 = 1. So I = I1-2I2, the inversions from non-intersecting chords are cancelled out, which leaves only inversions corresponding bto actual intersections. 
 
-### Final Notes
+### Complexity
+Given that the radian is already in ascending order, the initial sorting to define S1, S2, R1, R2 is O(n). Counting the number of inversions is O(nlogn). Therefore, the overall complexity of this problem is O(nlogn)
